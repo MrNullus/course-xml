@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- DTD -->
+<!DOCTYPE OrdemCompra[
+
+<!ELEMENT OrdemCompra (Cliente, Fornecedor, Ordem)>
+<!ELEMENT Cliente (Nome, Endereco*)>
+<!ELEMENT Fornecedor (Nome, Endereco*)>
+<!ELEMENT Ordem (Item+)>
+<!ELEMENT Nome (#PDATA)>
+<!ELEMENT Item (#PCDATA)>
+<!ELEMENT Endereco (#PCDATA)>
+
+]>
+
+<!-- XML -->
+<OrdemCompra>
+    <Cliente>
+        <Nome>Jubiscleuta da Silva</Nome>
+        <Endereco>Marte, nº 123</Endereco>
+    </Cliente>
+
+    <Fornecedor>
+        <Nome>Kid Marte</Nome>
+        <Endereco>Rua 38, Casa da sua mãe</Endereco>
+    </Fornecedor>
+
+    <Ordem>
+        <Item>Pilhas para controle remoto</Item>
+        <Item>Controle Remoto</Item>
+    </Ordem>
+</OrdemCompra>
+

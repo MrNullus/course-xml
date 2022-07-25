@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Atributos -->
+<!ATTLIST nome_do_elemento nome_do_atributo tipo_do_atributo valor_default>
+
+<!-- nome_do_elemento := Escola |> É o nome da tag à qual atributo se refere -->
+<!ATTLIST Escola grau CDATA "primaria">
+
+<!-- nome_do_atributo := grau |> É o nome dado ao atributo -->
+<!ATTLIST Escola grau CDATA "primaria">
+
+<!-- tipo_do_atributo := CDATA |> Tipo do dado do atributo -->
+<!ATTLIST Escola grau CDATA "primaria">
+
+<!-- valor_default := "primaria" |> Valor padrão do atributo -->
+<!ATTLIST Escola grau CDATA "primaria">

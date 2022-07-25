@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pessoa>
+    <nome>Maria</nome>
+    <cargo>Diplomata</cargo>
+
+    <departamento>
+        Direitos Humanos
+        <sala>402</sala>
+        <ramal>206</ramal>
+    </departamento>
+
+    <foto fileref="mariaclara.jpeg" />
+</pessoa>

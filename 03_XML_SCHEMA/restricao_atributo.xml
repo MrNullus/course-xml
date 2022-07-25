@@ -1,0 +1,19 @@
+<!-- Exemplos da Página 11 -->
+<xs:element name="porcentagem">
+	<xs:simplesType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0" />
+			<xs:maxInclusive value="100" />
+		</xs:restriction>
+	</xs:simplesType>
+</xs:element>
+
+
+<xs:element name="sexo">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumerator value="Masculino" />
+			<xs:enumerator value="Feminino" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>

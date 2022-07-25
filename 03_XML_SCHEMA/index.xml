@@ -1,0 +1,14 @@
+<!-- Exemplo Página 9 -->
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSCHEMA">
+
+<xs:element name="recado">
+	<xs:ComplexType>
+		<xs:sequence>
+			<xs:element name="de" type="xs:string"></xs:element>
+			<xs:element name="para" type="xs:string"></xs:element>
+			<xs:element name="mensagem" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:ComplexType>
+</xs:element>
+
+</xs:schema>
